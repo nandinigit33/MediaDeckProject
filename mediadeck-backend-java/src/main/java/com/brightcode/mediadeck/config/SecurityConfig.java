@@ -1,5 +1,7 @@
 package com.brightcode.mediadeck.config;
 
+import com.brightcode.mediadeck.service.AppUserDetailsService;
+import com.brightcode.mediadeck.service.AuthenticationSuccessHandler;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -57,7 +59,7 @@ public class SecurityConfig implements WebMvcConfigurer {
                 .formLogin(httpSecurityFormLoginConfigurer -> {
                     httpSecurityFormLoginConfigurer
                             .loginPage("/signin")
-                            .successHandler(new AuthenticationSuccessHandller())
+                            .successHandler(new AuthenticationSuccessHandler())
                             .permitAll();
                 })
                 .build();
@@ -101,6 +103,7 @@ public class SecurityConfig implements WebMvcConfigurer {
             System.out.println("Session ID: " + request.getRequestedSessionId());
             filterChain.doFilter(request, response);
         }
+    }
 
     @Bean
     public DaoAuthenticationProvider authenticationProvider() {

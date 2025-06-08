@@ -1,4 +1,5 @@
-package com.brightcode.mediadeck.config;
+package com.brightcode.mediadeck.service;
+
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -8,7 +9,8 @@ import org.springframework.security.web.authentication.SavedRequestAwareAuthenti
 
 import java.io.IOException;
 
-public class AuthenticationSuccessHandller extends SavedRequestAwareAuthenticationSuccessHandler {
+// Upon successful authentication, determines what page user is redirected to
+public class AuthenticationSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
