@@ -1,0 +1,54 @@
+
+#navigation {
+    margin-bottom: 100px;
+}
+
+.bar {
+    box-shadow: 0 0 15px 1px rgb(0, 252, 248, 0.5);
+}
+
+/* Sets background as gradient that expands to fill page */
+.bg-1 {
+    background-image: linear-gradient(rgb(45, 45, 48), rgb(26, 26, 28));
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #bdbdbd;
+  }
+
+/* Set color of links in navbar */
+ul.nav li a, ul.nav li a:visited {
+    color: rgb(166, 166, 166);
+}
+/* Color on hover */
+ul.nav li a:hover {
+    background: rgb(255, 255, 255, 0);
+    color: rgb(209, 209, 209);
+    text-shadow: 0 0 1px;
+}
+
+/* Overrides bootstrap dropdown menu background color */
+ul.dropdown-menu {
+    background-color: rgb(36, 36, 35) !important;
+    width: 200px;
+}
+
+/* Makes toggle button background same as navbar */
+.dropdown-toggle {
+    background-color: rgb(255, 255, 255, 0) !important;
+}
+
+.star-checked {
+    color: orange;
+}
+
+.img-poster {
+    width: 100px;
+    box-shadow: 0 0 15px rgb(66, 66, 66);
+}
+
+.view-poster {
+    box-shadow: 0 0 15px rgb(66, 66, 66);
+}
+
+

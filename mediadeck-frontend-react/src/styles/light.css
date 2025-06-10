@@ -1,0 +1,49 @@
+
+#navigation {
+    margin-bottom: 100px;
+}
+
+.bar {
+    box-shadow: 0 0 15px 1px;
+}
+
+.bg-1 {
+    background-image: linear-gradient(rgb(240, 248, 255), rgb(210, 232, 252));
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: DodgerBlue;
+}
+
+/* Set color of links in navbar */
+ul.nav li a, ul.nav li a:visited {
+    color: rgb(124, 129, 132);
+}
+
+ul.dropdown-menu {
+    background-color: rgb(247, 247, 247) !important;
+    width: 200px;
+}
+
+.dropdown-toggle {
+    background-color: rgb(255, 255, 255, 0) !important;
+}
+
+.star-checked {
+    color: orange;
+}
+
+.table, th, td, hr {
+    border-color: DodgerBlue !important;
+}
+
+.img-poster {
+    width: 100px;
+    box-shadow: 0 0 15px rgb(66, 66, 66);
+}
+
+.view-poster {
+    box-shadow: 0 0 15px rgb(66, 66, 66);
+}
+
+

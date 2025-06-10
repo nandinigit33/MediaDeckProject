@@ -1,0 +1,61 @@
+
+#navigation {
+    margin-bottom: 100px;
+}
+
+.bar {
+    box-shadow: 0 0 15px 1px;
+    background: rgb(230, 254, 255, 0.5);
+    backdrop-filter: blur(30px);
+}
+
+.bg-1 {
+    background-image: linear-gradient(rgb(230, 254, 255), rgb(141, 175, 176));
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(20, 81, 84);
+  }
+
+ul.nav li a, ul.nav li a:visited {
+    background: rgb(255, 255, 255, 0);
+    color: rgb(20, 81, 84);
+}
+
+ul.nav li a:hover {
+    background: rgb(255, 255, 255, 0);
+    color: rgb(20, 81, 84);
+    text-shadow: 0 0 1px Aquamarine;
+}
+
+ul li a:hover {
+    color: rgb(20, 81, 84);
+    text-shadow: 0 0 1px Aquamarine;
+}
+
+ul.dropdown-menu {
+    background-color: rgb(230, 254, 255) !important;
+    backdrop-filter: blur(20px);
+    width: 200px;
+}
+
+.dropdown-toggle {
+    background-color: rgb(255, 255, 255, 0) !important;
+}
+
+.star-checked {
+    color: orange;
+}
+
+.table, th, td, hr {
+    border-color: rgb(20, 81, 84) !important;
+}
+
+.img-poster {
+    width: 100px;
+    box-shadow: 0 0 15px;
+}
+
+.view-poster {
+    box-shadow: 0 0 15px;
+}
